@@ -1,6 +1,5 @@
 package com.jacksen.jackanno;
 
-import android.content.Context;
 import android.support.annotation.NonNull;
 import android.view.View;
 
@@ -13,6 +12,10 @@ import java.util.HashMap;
  * Created by jacksen on 2016/3/11.
  */
 public class JackAnno {
+
+    public JackAnno() {
+        throw new IllegalArgumentException("JackAnno class cannot be instantiated.");
+    }
 
     /**
      * @param context
